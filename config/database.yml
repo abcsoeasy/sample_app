@@ -2,7 +2,9 @@
 #   gem install sqlite3-ruby (not necessary on OS X Leopard)
 development:
   adapter: mysql
-  database: 
+  database:
+  user: root
+  password: password
   pool: 5
   timeout: 5000
 
@@ -18,5 +20,7 @@ test:
 production:
   adapter: mysql
   database:
+  user: root
+  password: password
   pool: 5
   timeout: 5000
