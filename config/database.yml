@@ -15,12 +15,14 @@ test:
   adapter: mysql
   database: 
   pool: 5
+  user: root
+  password: password
   timeout: 5000
 
 production:
   adapter: mysql
   database:
   user: root
-  password: password
+  password: password  
   pool: 5
   timeout: 5000
